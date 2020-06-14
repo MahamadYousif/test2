@@ -1,0 +1,167 @@
+/* nav bar */
+
+.menu-navigation-round {
+    font:bold 12px sans-serif;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+
+.menu-navigation-round a {
+    color: black;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    margin: 0 20px auto;
+    line-height: 2;
+    text-transform: uppercase;
+    text-decoration: none;
+  
+}
+
+.menu-navigation-round a.selected {
+    color: black;
+    background-color: #9eb9cc;
+    border-radius: 20px;
+    padding: 10px 15px;
+    margin: 0 5px auto;
+}
+
+
+
+
+/* Boby */
+
+	body {
+		background-color: #000;
+		background-image: url("images/bg.jpg");
+		background-size: cover;
+	
+	}
+
+       .line{
+			border-top:white solid 1px ;
+			width: 1000px;
+			display: block;
+			margin: 0 auto 46px auto;
+		}
+
+
+
+/* Thumbnails */
+
+	.thumbnails {
+		display:flex;
+		text-decoration: none;
+		flex-direction: row;
+		margin: 0 0 32 0;
+	}
+
+		.thumbnails a {
+            text-decoration: none;
+			border-bottom: none;
+			display: block;
+			width: 100%;
+			margin: 0 0 32 0;
+			text-align: center;
+			border-radius: 4px;
+			box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.25);
+			background-color: rgba(255, 255, 255, 0.075);
+			
+		}
+
+			.thumbnails a img {
+				display: block;
+				width: 100%;
+			
+			}
+
+			.thumbnails a h3 {
+				margin: 16;
+			}
+
+
+			.thumbnails {
+				margin: 0 0 32 0;
+			}
+
+				.thumbnails a {
+					margin: 0 0 23 0;
+				}
+
+				.thumbnails > div {
+					padding-left: 16;
+				}
+        .thumbnails > div {
+			display: flex;
+			flex-direction: column;
+			width: calc(100% / 3);
+			
+		}
+		
+
+		
+		
+
+
+/* Wrapper */
+
+	#wrapper {
+		max-width: 68em;
+		width: 100%;
+		margin: 0 auto;
+		padding: 0 32 0 0;
+		opacity: 1;
+		filter: none;
+		
+	}
+
+	
+
+/* Header */
+
+	#header {
+		text-align: center;
+		padding: 6em 0 4em 0;
+	}
+
+		#header h1 {
+			color: rgba(255, 255, 255, 0.65);
+		}
+
+		#header .avatar {
+			border-radius: 100%;
+			display: inline-block;
+			margin: 0 0 32 0;
+			padding: 8;
+			border: solid 1px rgba(255, 255, 255, 0.25);
+			background-color: rgba(255, 255, 255, 0.075);
+		}
+
+			#header .avatar img {
+				border-radius: 75%;
+				display: block;
+				width: 160px;
+			}
+
+/* Footer */
+
+	#footer {
+		text-align: center;
+		padding: 4em 0 4em 0;
+	}
+/* footer line */
+		#footer {
+			
+			border-top:white solid 1px ;
+			width: 1000px;
+			display: block;
+			margin: 0 auto 46px auto;
+		}
+
+
+
+			#footer {
+				padding: 32px 0 32px 0;
+			}
+
+		
